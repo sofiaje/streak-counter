@@ -1,8 +1,4 @@
-# React + Vite
+# Streak counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my first React project! This simple streak counter was made to practice React concepts like Routes, useState and useEffect. Additionally, it utilizes local storage to save streak information, allowing users to return and update their streaks day after day!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
