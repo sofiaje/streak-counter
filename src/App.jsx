@@ -19,6 +19,7 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />} >
         <Route index element={<Home />} />
+        <Route path="/streak-counter" element={<Home />} />
         <Route path="/newcounter" element= {<NewCounter />}/>
         <Route path="*" element={<ErrorPage />} />
       </Route>
