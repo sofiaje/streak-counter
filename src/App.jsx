@@ -17,7 +17,7 @@ import ErrorPage from './pages/ErrorPage'
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/streak-counter/" element={<Root />} >
+      <Route path="/" element={<Root />} >
         <Route index element={<Home />} />
         <Route path="/newcounter" element= {<NewCounter />}/>
         <Route path="*" element={<ErrorPage />} />

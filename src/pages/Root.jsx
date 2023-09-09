@@ -23,7 +23,7 @@ const Root = () => {
             <header>
                 <h1>Streak Counter</h1>
                 <nav>
-                    <NavLink to="/streak-counter/">Home</NavLink>
+                    <NavLink to="/">Home</NavLink>
                     <NavLink to="/newcounter">New counter</NavLink>
                 </nav>
             </header>
