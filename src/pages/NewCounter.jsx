@@ -15,7 +15,8 @@ const NewCounter = () => {
         if (activity.value && days.valueAsNumber >= 0) {
             let newStreak = {
                 activity: activity.value,
-                days: days.valueAsNumber
+                days: days.valueAsNumber,
+                date: new Date().toLocaleDateString()
             }
 
             let newStreaks = [...streaks, newStreak]
