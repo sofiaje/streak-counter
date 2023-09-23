@@ -15,17 +15,24 @@ h1, h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
+p {
+  font-size: 1.1rem;
+}
 header {
   padding: 1rem 1rem;
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
   align-items: center;
 }
 nav {
   font-family: 'Roboto', sans-serif;
   display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 1rem;
 }
+
 main {
   max-width: 1000px;
   margin: 2rem auto;
@@ -76,7 +83,7 @@ input{
 .counterWrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap:1rem;
 }
 
@@ -84,7 +91,9 @@ input{
   background: linear-gradient(rgba(20,20,20,255), rgb(14, 14, 14));
   padding: 1rem;
   border-radius: 1rem;
+  align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .newCounter {
@@ -113,6 +122,11 @@ button {
 button:hover {
   background-color: #1d1d1d;
 }
+.flexBtn {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem
+}
 .flex {
   display: flex;
   gap: 0.3rem
@@ -124,4 +138,15 @@ button:hover {
 .questions {
   font-size: 1.1rem;
 
+}
+
+@media (width >= 400px) {
+  nav {
+    gap: 1.5rem;
+
+  }
+  .counter {
+    width:auto;
+    min-width: 20rem;
+  }
 }

@@ -9,9 +9,9 @@ import {
 //font
 
 //pages
-import Root from "./Pages/Root"
-import Home from './Pages/home'
-import NewCounter from './Pages/NewCounter'
+import Root from "./pages/Root"
+import Home from './Pages/Home'
+import NewCounter from './pages/NewCounter'
 import ErrorPage from './pages/ErrorPage'
 
 function App() {
