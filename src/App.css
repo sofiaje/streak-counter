@@ -17,6 +17,7 @@ h1, h2 {
 }
 p {
   font-size: 1.1rem;
+  line-height: 1.5;
 }
 header {
   padding: 1rem 1rem;
@@ -93,12 +94,14 @@ input{
   border-radius: 1rem;
   align-items: center;
   text-align: center;
+  min-width: 18rem;
   width: 100%;
 }
 
 .newCounter {
   display: inline-block;
   min-width: 300px;
+  min-width: 18rem;
   background: linear-gradient(rgba(20,20,20,255), rgb(14, 14, 14));
   padding: 2rem;
   border-radius: 1rem;
@@ -147,6 +150,5 @@ button:hover {
   }
   .counter {
     width:auto;
-    min-width: 20rem;
   }
 }
